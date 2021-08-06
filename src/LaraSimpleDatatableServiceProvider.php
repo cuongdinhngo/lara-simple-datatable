@@ -44,7 +44,7 @@ class LaraSimpleDatatableServiceProvider extends ServiceProvider
         ], 'simple-datatable-view');
 
         $this->publishes([
-            __DIR__.'/../resources' => config_path(),
+            __DIR__.'/../config' => config_path(),
         ], 'simple-datatable-config');
     }
 }
