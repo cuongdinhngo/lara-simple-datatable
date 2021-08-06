@@ -1,0 +1,34 @@
+{
+    "name": "cuongnd88/lara-simple-datatable",
+    "license": "MIT",
+    "description": "Laravel Simple Datatable enhances the accessibility of data in HTML tables",
+    "keywords": [
+        "laravel",
+        "datatable",
+        "simple datatable",
+        "pagination",
+        "paginate",
+        "paginator"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cuongnd88\\LaraSimpleDatatable\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ngo Dinh Cuong",
+            "email": "dinhcuongngo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cuongnd88\\LaraSimpleDatatable\\LaraSimpleDatatableServiceProvider"
+            ]
+        }
+    }
+}
